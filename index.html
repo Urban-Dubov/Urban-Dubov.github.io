@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700;800&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="https://u.cubeupload.com/Elusive/Untitleddesign1.png" />
+    <script src="script.js" defer></script>
+    <title>League of Friends</title>
+  </head>
+  <body>
+    <div class="app">
+      <header class="padding-from-sides align-nav">
+        <span class="moddiey-title">
+          <img src="https://u.cubeupload.com/Elusive/Untitleddesign1.png" height="50px" width="50px" alt="Moddiey" style="font-weight: 700" draggable="false" />
+        </span>
+        <nav style="display: flex; align-items: center; gap: 1rem">
+          <i class="ri-home-2-fill pointer levitate-transition tab-button active" onclick="changeTab(event, 'home')"></i>
+          <i class="ri-apps-fill pointer levitate-transition tab-button" onclick="changeTab(event, 'file')"></i>
+          <i class="ri-history-fill pointer levitate-transition tab-button" onclick="changeTab(event, 'history')"></i>
+          <a href="https://discord.gg/tjUpyxYCRs" target="_blank" style="text-decoration: none; color: hsl(0, 0%, 100%)" class="pointer levitate-transition">
+            <i class="ri-discord-fill"></i>
+          </a>
+        </nav>
+      </header>
+      <div class="tab-section" id="home">
+        <div class="padding-from-sides margin-from-top" style="display: flex; flex-direction: column; align-items: center">
+          <button class="non-branded-button pointer" onclick="changeTab(event, 'history')"><i class="ri-bard-fill"></i>New update - See what's new</button>
+          <h1 class="h1 text-align" style="color: hsl(0, 0%, 100%)">League of Friends</h1>
+          <p class="text-align" style="color: hsla(204, 100%, 90%, 0.8)">We collaborate to enhance you into becoming someone that has never been seen before.</p>
+          <button class="branded-button pointer" onclick="changeTab(event, 'file')">Go to apps <i class="ri-arrow-right-fill"></i></button>
+        </div>
+        <div class="padding-from-sides margin-from-top" style="display: flex; flex-direction: column; align-items: center">
+          <h2 class="h2 text-align" style="color: hsl(0, 0%, 100%)">Champions</h2>
+          <p class="text-align" style="color: hsla(204, 100%, 90%, 0.8)">Elusive's main champions.</p>
+          <div class="grid-box">
+            <div class="box">
+              <div class="icon-background">
+                <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4 4h22.137l-4.406 4.786H8.786v12.945L4 26.137V4z"></path>
+                  <path fill-opacity=".4" d="M27.333 27.333H6.393l5.041-4.188h11.712V10.918l4.188-4.526v20.94zM12.974 12.974h5.983v5.983h-5.983v-5.983z"></path>
+                </svg>
+              </div>
+              <p style="color: rgb(11, 198, 227)">Senna - <span style="color: hsl(213, 27%, 84%)">Top</span></p>
+              <p style="color: hsl(0, 0%, 100%); display: flex; align-items: center">
+                <img src="https://blitz-cdn.blitz.gg/runes/all/precision.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/8021.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/8009.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/9104.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/8014.png" height="30" width="30" />
+              </p>
+              <p style="color: hsl(0, 0%, 100%); display: flex; align-items: center">
+                <img src="https://blitz-cdn.blitz.gg/runes/all/inspiration.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/8345.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/8410.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/5005.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/5003.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/5001.png" height="30" width="30" />
+              </p>
+              <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Senna_0.jpg" width="100%" />
+            </div>
+            <div class="box">
+              <div class="icon-background">
+                <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m16.21 29.333-7.875-7.955A18.22 18.22 0 0 0 4 10.09c6.93 2.606 8.04 7.818 8.04 7.818 1.245-6.091-3.39-15.242-3.39-15.242 13.305 16.652 7.56 26.667 7.56 26.667zM16.57 13a37.966 37.966 0 0 1 6.765-10.333 49.874 49.874 0 0 0-4.365 15.5s-1.02-3.591-2.4-5.167zM28 9.879c-9.315 5.576-8.325 15.515-8.325 15.515l4.185-4.258C23.71 13.03 28 9.878 28 9.878z"></path>
+                </svg>
+              </div>
+              <p style="color: rgb(11, 198, 227)">Kayn - <span style="color: hsl(213, 27%, 84%)">Jungle</span></p>
+              <p style="color: hsl(0, 0%, 100%); display: flex; align-items: center">
+                <img src="https://blitz-cdn.blitz.gg/runes/all/domination.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/8128.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/8143.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/8138.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/8135.png" height="30" width="30" />
+              </p>
+              <p style="color: hsl(0, 0%, 100%); display: flex; align-items: center">
+                <img src="https://blitz-cdn.blitz.gg/runes/all/inspiration.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/8304.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/8347.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/5008.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/5008.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/5002.png" height="30" width="30" />
+              </p>
+              <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kayn_0.jpg" width="100%" />
+            </div>
+            <div class="box">
+              <div class="icon-background">
+                <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.333 26.667v-4.364l16.97-16.97h4.364v4.364l-16.97 16.97H5.333z"></path>
+                  <path fill-opacity=".4" d="m19.394 5.333-3.879 3.879H9.212v6.303l-3.879 3.879V5.333h14.061zm-6.788 21.334 3.879-3.879h6.303v-6.303l3.879-3.879v14.061H12.606z"></path>
+                </svg>
+              </div>
+              <p style="color: rgb(11, 198, 227)">Yasuo - <span style="color: hsl(213, 27%, 84%)">Mid</span></p>
+              <p style="color: hsl(0, 0%, 100%); display: flex; align-items: center">
+                <img src="https://blitz-cdn.blitz.gg/runes/all/precision.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/8008.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/9111.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/9104.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/8299.png" height="30" width="30" />
+              </p>
+              <p style="color: hsl(0, 0%, 100%); display: flex; align-items: center">
+                <img src="https://blitz-cdn.blitz.gg/runes/all/resolve.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/8473.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/8242.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/5005.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/5008.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/5003.png" height="30" width="30" />
+              </p>
+              <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yasuo_0.jpg" width="100%" />
+            </div>
+            <div class="box">
+              <div class="icon-background">
+                <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M27.333 27.333H5.196l4.406-4.786h12.945V9.602l4.786-4.406v22.137z"></path>
+                  <path fill-opacity=".4" d="M4 4h20.94l-5.041 4.188H8.187v11.628l-4.188 4.526V4zm14.359 14.359h-5.983v-5.983h5.983v5.983z"></path>
+                </svg>
+              </div>
+              <p style="color: rgb(11, 198, 227)">Aphelios - <span style="color: hsl(213, 27%, 84%)">ADC</span></p>
+              <p style="color: hsl(0, 0%, 100%); display: flex; align-items: center">
+                <img src="https://blitz-cdn.blitz.gg/runes/all/precision.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/8021.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/9101.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/9103.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/8017.png" height="30" width="30" />
+              </p>
+              <p style="color: hsl(0, 0%, 100%); display: flex; align-items: center">
+                <img src="https://blitz-cdn.blitz.gg/runes/all/sorcery.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/8233.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/8236.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/5005.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/5008.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/5002.png" height="30" width="30" />
+              </p>
+              <img src="https://images.contentstack.io/v3/assets/blt187521ff0727be24/blt5b04d0076299c48f/60ee0b6960216d1db87a11cd/aphelios-splash.jpg" width="100%" />
+            </div>
+            <div class="box">
+              <div class="icon-background">
+                <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M19.03 4h-6.061l-1.061 1.417 4.091 5.037 4.091-5.037L19.029 4zm-7.878 4.88H2.667c1.167 1.144 2.514 2.221 3.939 2.991.572.185 1.068.313 1.667.315h2.273l-2.424 2.991 3.939 1.889 1.515-5.667-2.424-2.519zm9.696 0h8.485c-1.168 1.143-2.515 2.222-3.939 2.991-.572.185-1.068.313-1.667.315h-2.273l2.424 2.991-3.939 1.889-1.515-5.667 2.424-2.519zm-1.666 15.268-2.424-12.593a.863.863 0 0 1-.758.63.87.87 0 0 1-.758-.63l-2.424 12.593L16 26.667l3.182-2.519z"></path>
+                </svg>
+              </div>
+              <p style="color: rgb(11, 198, 227)">Aphelios - <span style="color: hsl(213, 27%, 84%)">Support</span></p>
+              <p style="color: hsl(0, 0%, 100%); display: flex; align-items: center">
+                <img src="https://blitz-cdn.blitz.gg/runes/all/precision.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/8008.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/9111.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/9104.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/8299.png" height="30" width="30" />
+              </p>
+              <p style="color: hsl(0, 0%, 100%); display: flex; align-items: center">
+                <img src="https://blitz-cdn.blitz.gg/runes/all/resolve.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/8444.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/8242.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/5005.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/5008.png" height="30" width="30" />
+                <span>-</span>
+                <img src="https://blitz-cdn.blitz.gg/runes/all/5002.png" height="30" width="30" />
+              </p>
+              <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yone_0.jpg" width="100%" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-section" id="file" style="display: none">
+        <div class="padding-from-sides margin-from-top" style="display: flex; flex-direction: column; align-items: center">
+          <h1 class="h1 text-align" style="color: hsl(0, 0%, 100%)">Applications</h1>
+          <p class="text-align" style="color: hsla(204, 100%, 90%, 0.8)">Downloading these is recommended.</p>
+          <div class="grid-box">
+            <div class="box animated" style="display: flex; flex-direction: column; align-items: center">
+              <p style="color: hsl(213, 27%, 84%)">Blitz</p>
+              <div style="font-size: 4em">
+                <a style="text-decoration: none; color: hsl(213, 27%, 84%)" href="https://blitz.gg" target="_blank">
+                  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21.097 48c-1.933 0-3.44-1.657-3.234-3.557l1.463-13.494a.861.861 0 0 0-.862-.949H7.384a1.74 1.74 0 0 1-1.321-.604l-1.15-1.337a1.699 1.699 0 0 1-.05-2.159L24.99.166A.436.436 0 0 1 25.334 0h1.534c1.933 0 3.44 1.657 3.234 3.557l-1.463 13.495A.861.861 0 0 0 29.5 18h11.088c.504 0 .983.216 1.312.593l1.177 1.346c.54.617.564 1.525.059 2.17L22.974 47.834a.435.435 0 0 1-.343.166h-1.534Z" fill="url(#blitz-a-0)"></path>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="m20.652 31.092-1.463 13.495c-.119 1.094.75 2.08 1.908 2.08h1.098l19.892-25.38a.365.365 0 0 0-.013-.47l-1.176-1.346a.41.41 0 0 0-.309-.138H29.501c-1.292 0-2.33-1.113-2.188-2.425l1.463-13.495c.119-1.094-.75-2.08-1.908-2.08H25.77L5.912 26.722a.365.365 0 0 0 .012.468l1.15 1.336a.41.41 0 0 0 .31.14h11.08c1.291 0 2.33 1.114 2.188 2.426Zm-2.789 13.351c-.206 1.9 1.3 3.557 3.234 3.557h1.534c.134 0 .26-.061.343-.166l20.163-25.725a1.699 1.699 0 0 0-.06-2.17l-1.176-1.346A1.743 1.743 0 0 0 40.59 18H29.501a.861.861 0 0 1-.863-.948l1.463-13.495c.207-1.9-1.3-3.557-3.233-3.557h-1.534a.436.436 0 0 0-.343.166L4.861 25.9a1.699 1.699 0 0 0 .05 2.159l1.15 1.337c.33.383.814.604 1.322.604h11.08a.86.86 0 0 1 .862.948l-1.463 13.495Z" fill="url(#blitz-b-0)"></path>
+                    <defs>
+                      <linearGradient id="blitz-a-0" x1="37.146" y1="30.595" x2="14.827" y2="11.601" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#CE0F50"></stop>
+                        <stop offset="1" stop-color="#FE112D"></stop>
+                      </linearGradient>
+                      <linearGradient id="blitz-b-0" x1="24" y1="0" x2="24" y2="48" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF003D"></stop>
+                        <stop offset="1" stop-color="#FF003D" stop-opacity="0"></stop>
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-section" id="history" style="display: none">
+        <div class="padding-from-sides margin-from-top" style="display: flex; flex-direction: column; align-items: center">
+          <!-- <h1 class="h1 text-align" style="color: hsl(0, 0%, 100%); display: flex; align-items: center">Changelog <span style="font-size: 0.2em; margin-left: 0.5rem; border-radius: 2rem; background-color: hsl(220, 3%, 20%); padding: 0 0.5rem">Version 0.5</span></h1> -->
+          <h1 class="h1 text-align" style="color: hsl(0, 0%, 100%); display: flex; align-items: center">Coming soon...</h1>
+          <!-- <p class="text-align" style="color: hsla(204, 100%, 90%, 0.8)">New updates and improvements to Moddiey.</p> -->
+          <!-- <div class="grid-box">
+            <div class="box" style="color: hsl(213, 27%, 84%)">
+              <p>Version 0.1:</p>
+              <ul>
+                <li>League of Friends created</li>
+              </ul>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
