@@ -162,6 +162,12 @@ body {
   border-radius: 1rem;
 }
 
+.ability-icon {
+  height: 3rem;
+  aspect-ratio: 1;
+  fill: hsl(0, 0%, 100%);
+}
+
 .runes-animation:hover {
   transform: scale(1.2);
 }
