@@ -144,7 +144,7 @@ body {
 .box.animated {
   transform: translate(0, 0);
   box-shadow: none;
-  transition: all 1s cubic-bezier(0.79, 0.33, 0.14, 0.53);
+  transition: all 300ms ease;
 }
 
 .box.animated:hover {
