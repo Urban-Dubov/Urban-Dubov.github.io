@@ -20,8 +20,8 @@
         </span>
         <nav style="display: flex; align-items: center; gap: 1rem">
           <i class="ri-home-2-fill pointer levitate-transition tab-button active" onclick="changeTab(event, 'home')"></i>
-          <i class="ri-apps-fill pointer levitate-transition tab-button" onclick="changeTab(event, 'file')"></i>
-          <i class="ri-history-fill pointer levitate-transition tab-button" onclick="changeTab(event, 'history')"></i>
+          <i class="ri-apps-fill pointer levitate-transition tab-button" onclick="changeTab(event, 'file')" id="file-btn-id"></i>
+          <i class="ri-history-fill pointer levitate-transition tab-button" onclick="changeTab(event, 'history')" id="history-btn-id"></i>
           <a href="https://discord.gg/tjUpyxYCRs" target="_blank" style="text-decoration: none; color: hsl(0, 0%, 100%)" class="pointer levitate-transition">
             <i class="ri-discord-fill"></i>
           </a>
@@ -29,10 +29,10 @@
       </header>
       <div class="tab-section" id="home">
         <div class="padding-from-sides margin-from-top" style="display: flex; flex-direction: column; align-items: center">
-          <button class="non-branded-button pointer" onclick="changeTab(event, 'history')"><i class="ri-bard-fill"></i>New update - See what's new</button>
+          <button class="non-branded-button pointer" onclick="clickHistory()"><i class="ri-bard-fill"></i>New update - See what's new</button>
           <h1 class="h1 text-align" style="color: hsl(0, 0%, 100%)">League of Friends</h1>
           <p class="text-align" style="color: hsla(204, 100%, 90%, 0.8)">We collaborate to enhance you into becoming someone that has never been seen before.</p>
-          <button class="branded-button pointer" onclick="changeTab(event, 'file')">Go to apps <i class="ri-arrow-right-fill"></i></button>
+          <button class="branded-button pointer" onclick="clickFile()">Go to apps <i class="ri-arrow-right-fill"></i></button>
         </div>
         <div class="padding-from-sides margin-from-top" style="display: flex; flex-direction: column; align-items: center">
           <h2 class="h2 text-align" style="color: hsl(0, 0%, 100%)">Champion</h2>

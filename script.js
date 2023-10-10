@@ -35,3 +35,11 @@ const changeTab = (evt, option) => {
 
   evt.currentTarget.className += " active";
 };
+
+const clickHistory = () => {
+  document.querySelector("#history-btn-id").click();
+};
+
+const clickFile = () => {
+  document.querySelector("#file-btn-id").click();
+};
