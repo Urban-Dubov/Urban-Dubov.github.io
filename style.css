@@ -125,6 +125,21 @@ body {
   user-select: none;
 }
 
+.tab-button.active {
+  border-bottom: 0.125rem solid;
+  border-radius: 0.5rem;
+  transform: translateY(-5%);
+  animation: border-animation alternate infinite 2s;
+}
+
+@keyframes border-animation {
+  0% {
+    color: hsl(0, 0%, 100%);
+  }
+  100% {
+    border-color: rgb(11, 198, 227);
+  }
+}
 .grid-box {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
